@@ -1,0 +1,30 @@
+media: media
+
+content:
+  - name: writings
+    label: Scrieri
+    type: file
+    path: writings.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Titlu
+        type: string
+        required: true
+      - name: category
+        label: Categorie
+        type: string
+        required: true
+      - name: date
+        label: Data
+        type: string
+        required: true
+      - name: excerpt
+        label: Fragment pentru pagina principală
+        type: text
+        required: true
+      - name: body
+        label: Text complet
+        type: text
+        required: true
